@@ -1,0 +1,48 @@
+.index_swiper {
+    swiper {
+        height: 340rpx;
+        image {
+            width: 100%;
+        }
+    }
+}
+.index_cate {
+    display: flex;
+    navigator {
+        flex: 1;
+        padding: 20rpx;
+        image {
+            width: 100%;
+        }
+    }
+}
+
+.index_floor {
+    .floor_title {
+        padding: 10rpx 0;
+        image {
+            width: 100%;
+        }
+    }
+    .floor_list {
+        // 清除浮动
+        overflow: hidden;
+        navigator {
+            float: left;
+            width: 33.33%;
+            &:nth-child(n+2) {
+                height: ((33.33vw * 386) / 232 / 2);
+                image {
+                    height: 100%;
+                }
+                border-left: 10rpx solid #fff;
+            }
+            &:nth-child(2), &:nth-child(3) {
+                border-bottom: 10rpx solid #fff;
+            }
+            image {
+                width: 100%;
+            }
+        }
+    }
+}

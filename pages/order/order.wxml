@@ -1,0 +1,20 @@
+<view class="pyg_order">
+    <Tabs tabs="{{tabs}}" bindTap="handleTap">
+        <view class="order_main">
+            <view class="order_item" wx:for="{{orders}}" wx:key="order_id">
+                <view class="order_num_row">
+                    <text>订单编号</text>
+                    <text>{{item.order_number}}</text>
+                </view>
+                <view class="order_price_row">
+                    <text>订单价格</text>
+                    <text class="price">￥{{item.order_price}}</text>
+                </view>
+                <view class="order_date_row">
+                    <text>订单日期</text>
+                    <text>{{item.create_time_format}}</text>
+                </view>
+            </view>
+        </view>
+    </Tabs>
+</view>

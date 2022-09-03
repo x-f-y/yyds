@@ -1,0 +1,1 @@
+<button type="primary" plain bindtap="handleGetUserProfile">授权登录</button>

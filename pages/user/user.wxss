@@ -1,0 +1,114 @@
+page {
+  background-color: #edece8;
+}
+.user_img_wrap {
+  position: relative;
+  overflow: hidden;
+  height: 45vh;
+  background-color: var(--themeColor);
+}
+.user_img_wrap .user_bg image {
+  height: 50vh;
+  width: 100%;
+  filter: blur(10rpx);
+}
+.user_img_wrap .user_info {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.user_img_wrap .user_info image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_img_wrap .user_info .user_name {
+  margin-top: 40rpx;
+  color: #fff;
+  font-size: 36rpx;
+}
+.user_btn {
+  height: 45vh;
+  background-color: var(--themeColor);
+  position: relative;
+}
+.user_btn navigator {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+  padding: 30rpx;
+  color: greenyellow;
+  font-size: 38rpx;
+  border: 1rpx solid currentColor;
+  border-radius: 10rpx;
+}
+.user_content {
+  position: relative;
+}
+.user_content .user_main {
+  color: #666;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+  width: 90%;
+  padding-bottom: 50rpx;
+}
+.user_content .user_main .history_wrap {
+  display: flex;
+  padding: 10rpx 0;
+  background-color: #fff;
+}
+.user_content .user_main .history_wrap navigator {
+  flex: 1;
+  text-align: center;
+}
+.user_content .user_main .history_wrap navigator .his_num {
+  color: var(--themeColor);
+}
+.user_content .user_main .orders_wrap {
+  margin-top: 25rpx;
+  background-color: #fff;
+}
+.user_content .user_main .orders_wrap .orders_title {
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.user_content .user_main .orders_wrap .orders_content {
+  display: flex;
+  padding: 10rpx 0;
+}
+.user_content .user_main .orders_wrap .orders_content navigator {
+  flex: 1;
+  text-align: center;
+}
+.user_content .user_main .orders_wrap .orders_content navigator .iconfont {
+  color: var(--themeColor);
+}
+.user_content .user_main .address_wrap {
+  margin-top: 25rpx;
+  background-color: #fff;
+  padding: 20rpx 30rpx;
+}
+.user_content .user_main .app_info_wrap {
+  margin-top: 25rpx;
+  background-color: #fff;
+}
+.user_content .user_main .app_info_wrap .app_info_item {
+  padding: 20rpx 30rpx;
+}
+.user_content .user_main .app_info_wrap .app_info_item:nth-child(-n+2) {
+  border-bottom: 1rpx solid #ccc;
+}
+.user_content .user_main .app_info_wrap .kefu {
+  display: flex;
+  justify-content: space-between;
+}
+.user_content .user_main .recommend {
+  margin-top: 25rpx;
+  background-color: #fff;
+  padding: 20rpx 30rpx;
+}

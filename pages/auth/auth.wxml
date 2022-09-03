@@ -1,0 +1,3 @@
+<button type="primary" plain bindtap="handleGetUserProfile">
+    授权支付
+</button>
